@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* apply styles to <header> */
@@ -23,6 +24,7 @@ header nav ul li a{
     font-weight: lighter;
     font-size: 22px;
 }
+
 header h1{
     font-weight: bold;
     font-size: 36px;
@@ -39,4 +41,27 @@ header a{
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: #39a6b2;
+}
+
+footer{
+    background: #fce138;
+    width: 100%;
+    padding: 40px
+}
+
+footer h2{
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div{
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a{
+    color: #024e76;
 }
